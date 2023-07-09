@@ -1,2 +1,1 @@
-# alx-system_engineering-devops
-First task
+0x00. Shell, basics
