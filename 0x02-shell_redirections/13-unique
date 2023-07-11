@@ -1,0 +1,2 @@
+#!/bin/bash
+awk 'BEGIN{RS=" ";ORS="\n"}{count[$0]++}END{for(i in count){if(count[i]==1){print i}}}' | sort
